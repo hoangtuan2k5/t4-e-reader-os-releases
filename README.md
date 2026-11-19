@@ -2,6 +2,22 @@
 
 Bản cài T4 e-reader OS cho KOReader trên Kindle Paperwhite 1.
 
+## Chơi cờ trực tuyến
+
+[![Chơi cờ trên web](https://img.shields.io/badge/CH%C6%A0I%20C%E1%BB%9C%20TR%C3%8AN%20WEB-chess.hoangtuan.dev-9a571f?style=for-the-badge)](https://chess.hoangtuan.dev)
+
+**[Mở sảnh cờ T4](https://chess.hoangtuan.dev)** để tìm trận, mời bạn bằng mã phòng hoặc xem ván đang diễn ra. Sau ván, dùng **Phân tích Stockfish** để xem lại nước đi và thử các biến. Bản web đang trong giai đoạn thử nghiệm.
+
+> **Trên Kindle, dùng T4 v1.4.0 trở lên.** Kết nối Wi-Fi, vào **Cài đặt → Cập nhật T4** rồi khởi động lại KOReader. Nếu cài lần đầu, dùng gói Online hoặc Offline ở phần tải bản mới nhất.
+
+1. Mở **Cờ vua → Chơi trực tuyến** và đăng nhập bằng tài khoản web hoặc tạo tài khoản trên Kindle.
+2. Chọn **Tìm trận** để ghép trong khoảng **±500 Elo**, **Vào theo ID** để nhập mã phòng, hoặc **Bạn bè** để tìm bằng `@username` hay ID người chơi rồi rủ đấu.
+3. Sau ván, chọn **Phân tích** để xem lại các nước và biến Stockfish.
+
+Cả hai gói Kindle đều hỗ trợ chơi trực tuyến khi có Wi-Fi. Tính năng học, đọc và luyện cờ cục bộ của gói Offline vẫn dùng được khi mất mạng.
+
+<a href="screenshots/chess-online-lobby.png"><img src="screenshots/chess-online-lobby.png" width="224" alt="Sảnh Chơi trực tuyến trên Kindle Paperwhite 1"></a>
+
 ## Tải bản mới nhất
 
 - [Tải bản Online](https://github.com/hoangtuan2k5/t4-e-reader-os-releases/releases/latest/download/t4-e-reader-os-online.zip) — đọc, học, cờ vua và kết nối Agent/Vault.
