@@ -1,5 +1,11 @@
 # T4 e-reader OS
 
+## Tải T4 e-reader OS
+
+[**Tải bản cài mới nhất**](https://github.com/hoangtuan2k5/t4-e-reader-os-releases/releases/latest/download/t4-e-reader-os-offline.zip) · [Xem các bản phát hành](https://github.com/hoangtuan2k5/t4-e-reader-os-releases/releases/latest)
+
+Giải nén vào thư mục `koreader/plugins/`, rồi mở T4 từ menu KOReader.
+
 Bản cài T4 e-reader OS cho KOReader trên Kindle Paperwhite 1.
 
 ## Chơi cờ trực tuyến
@@ -8,37 +14,29 @@ Bản cài T4 e-reader OS cho KOReader trên Kindle Paperwhite 1.
 
 **[Mở sảnh cờ T4](https://chess.hoangtuan.dev)** để tìm trận, mời bạn bằng mã phòng hoặc xem ván đang diễn ra. Sau ván, dùng **Phân tích Stockfish** để xem lại nước đi và thử các biến. Bản web đang trong giai đoạn thử nghiệm.
 
-> **Trên Kindle, dùng T4 v1.4.0 trở lên.** Kết nối Wi-Fi, vào **Cài đặt → Cập nhật T4** rồi khởi động lại KOReader. Nếu cài lần đầu, dùng gói Online hoặc Offline ở phần tải bản mới nhất.
+> **Trên Kindle, dùng T4 v1.4.0 trở lên.** Kết nối Wi-Fi, vào **Cài đặt → Cập nhật T4** rồi khởi động lại KOReader. Nếu cài lần đầu, tải gói cài ở đầu trang.
 
 1. Mở **Cờ vua → Chơi trực tuyến** và đăng nhập bằng tài khoản web hoặc tạo tài khoản trên Kindle.
 2. Chọn **Tìm trận** để ghép trong khoảng **±500 Elo**, **Vào theo ID** để nhập mã phòng, hoặc **Bạn bè** để tìm bằng `@username` hay ID người chơi rồi rủ đấu.
 3. Sau ván, chọn **Phân tích** để xem lại các nước và biến Stockfish.
 
-Cả hai gói Kindle đều hỗ trợ chơi trực tuyến khi có Wi-Fi. Tính năng học, đọc và luyện cờ cục bộ của gói Offline vẫn dùng được khi mất mạng.
+T4 hỗ trợ chơi trực tuyến khi có Wi-Fi và luyện cờ trên thiết bị.
 
 <a href="screenshots/chess-online-lobby.png"><img src="screenshots/chess-online-lobby.png" width="224" alt="Sảnh Chơi trực tuyến trên Kindle Paperwhite 1"></a>
-
-## Tải bản mới nhất
-
-- [Tải bản Online](https://github.com/hoangtuan2k5/t4-e-reader-os-releases/releases/latest/download/t4-e-reader-os-online.zip) — đọc, học, cờ vua và kết nối Agent/Vault.
-- [Tải bản Offline](https://github.com/hoangtuan2k5/t4-e-reader-os-releases/releases/latest/download/t4-e-reader-os-offline.zip) — đọc, học và cờ vua trên Kindle.
-- [Xem ghi chú bản mới nhất](https://github.com/hoangtuan2k5/t4-e-reader-os-releases/releases/latest)
-
-Các liên kết trên tự trỏ đến bản ổn định mới nhất khi kho phát hành có bản công khai.
 
 ## Cài trên Kindle
 
 1. Thoát KOReader rồi kết nối Kindle với máy tính bằng USB.
 2. Giải nén ZIP đã chọn vào `koreader/plugins/`. Kiểm tra đường dẫn `koreader/plugins/t4-e-reader-os.koplugin/main.lua`.
-3. Nếu nâng cấp qua USB, sao lưu thư mục plugin cũ ra ngoài `plugins/` trước khi thay. Giữ dữ liệu trong `koreader/settings/learningos/`. Nếu dùng Agent, sao chép lại `secrets.lua` của bản Online.
+3. Nếu nâng cấp qua USB, sao lưu thư mục plugin cũ ra ngoài `plugins/` trước khi thay. Giữ dữ liệu trong `koreader/settings/learningos/`.
 4. Mở KOReader và chọn **T4 e-reader OS** từ menu.
 
-Sau khi cài bản hỗ trợ OTA, kết nối Wi-Fi và vào **Cài đặt → Cập nhật T4**. Cả hai bản tự chọn đúng gói cập nhật và yêu cầu khởi động lại KOReader sau khi cài.
+Sau khi cài bản hỗ trợ OTA, kết nối Wi-Fi và vào **Cài đặt → Cập nhật T4**. T4 chọn gói cập nhật và yêu cầu khởi động lại KOReader sau khi cài.
 
 
 ## Kho puzzle
 
-Mở **Cờ vua → Kho puzzle → Tải thêm qua Wi-Fi** để tải gói. Cả hai bản có 5.000 bài đi kèm và có thể luyện nhiều gói đã cài cùng lúc. [Tải gói puzzle theo Elo hoặc Binpack đầy đủ](https://github.com/hoangtuan2k5/t4-e-reader-os-releases/releases/tag/puzzle-packs-v1)
+Mở **Cờ vua → Kho puzzle → Tải thêm qua Wi-Fi** để tải gói. T4 có 5.000 bài đi kèm và có thể luyện nhiều gói đã cài cùng lúc. [Tải gói puzzle theo Elo hoặc Binpack đầy đủ](https://github.com/hoangtuan2k5/t4-e-reader-os-releases/releases/tag/puzzle-packs-v1)
 
 ## Xem lại và phân tích ván cờ
 
